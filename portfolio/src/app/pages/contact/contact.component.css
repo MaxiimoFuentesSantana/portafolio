@@ -1,0 +1,42 @@
+.contact {
+  padding: 80px 10%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  max-width: 600px;
+  margin-bottom: 48px;
+}
+
+.contact-card {
+  background: var(--bg-card);
+  padding: 32px;
+  border-radius: 16px;
+  max-width: 500px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+a {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
